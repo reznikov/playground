@@ -1,0 +1,6 @@
+---
+- name: Set Time Zone
+  hosts: all
+  tasks:
+    - name: Set timezone variables
+      shell: "timedatectl set-timezone Europe/Riga"
